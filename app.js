@@ -3,12 +3,19 @@
 const darkMode = document.getElementById("dark-mode");
 const body = document.getElementById("body");
 const cards = document.querySelectorAll("article");
+const header = document.querySelector("header");
+const input = document.querySelector("input");
 
 // I tried multiple times with classLists and with some conditionals but im still new, I will find a better looking code and will upgrade this one
 
 darkMode.addEventListener("click", () => {
   body.style.backgroundColor =
     body.style.backgroundColor === "black" ? "white" : "black";
+  header.style.backgroundColor =
+    header.style.backgroundColor === "black" ? "white" : "black";
+// This is the way i found for now, will come with better code. 
+  input.style.backgroundColor =
+    input.style.backgroundColor === "black" ? "white" : "black";
 
   // const to add ark mode to cards
 

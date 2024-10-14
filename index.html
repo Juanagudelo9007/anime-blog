@@ -8,12 +8,12 @@
   </head>
   <body class="bg-white transition-colors duration-700" id="body">
     <!--header-->
-    <header class="bg-white px-6 shadow-lg">
+    <header class="bg-white transition-colors duration-700 px-6 shadow-lg">
       <!--header links -->
       <div class="mx-auto flex h-16 max-w-6xl items-center justify-between">
-        <!--Poner el buscador aca -->
+        <!--Search bar -->
         <div
-          class="relative flex items-center text-slate-400 focus-within:text-slate-400"
+          class="relative flex font-semibold transition-colors duration-700 text-slate-400 items-center focus-within:text-slate-500"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -34,15 +34,15 @@
             type="text"
             name="search"
             aria-label="search"
-            placeholder="search.."
-            class="pr-3 pl-10 py-1 border-none rounded-2xl font-semibold placeholder-slate-400 text-black focus:outline-none focus:ring-2 focus:ring-slate-400"
+            placeholder="search...."
+            class="pr-3 pl-10 py-1 transition-colors duration-700 text-slate-500 border-none rounded-2xl placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-400"
             id="search"
           />
         </div>
         <div class="flex">
           <!-- Dark Mode button -->
           <button
-            class="rounded-full p-1 transition-colors duration-500 text-slate-500 hover:bg-slate-400 hover:text-slate-200 focus:ring-2 focus:ring-slate-400 focus:ring-offset-1"
+            class="rounded-full p-1 transition-colors duration-700 text-slate-500 hover:bg-slate-500 hover:text-slate-300 focus:ring-1 focus:ring-slate-400 focus:ring-offset-1"
             id="dark-mode"
           >
             <svg
@@ -52,7 +52,6 @@
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-            
             >
               <path
                 stroke-linecap="round"
@@ -68,7 +67,7 @@
     <main class="p-4 mt-8">
       <div class="mx-auto max-w-6xl md:grid-cols-2 lg:grid-cols-3 grid gap-6">
         <article
-          class="article flex flex-col rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl  hover:scale-105 hover:shadow-2xl "
+          class="article flex flex-col rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl hover:scale-105 hover:shadow-2xl"
           id="article-1"
         >
           <div>
@@ -93,11 +92,16 @@
             </p>
           </div>
           <div>
-            <a class="read-more font-semibold flex p-5 text-slate-400" href="https://www.sololevelingmangafree.com/index.html" target="_blank">Read More...</a>
+            <a
+              class="read-more font-semibold flex p-5 text-slate-400"
+              href="https://www.sololevelingmangafree.com/index.html"
+              target="_blank"
+              >Read More...</a
+            >
           </div>
         </article>
         <article
-          class="article flex flex-col rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl  hover:scale-105 hover:shadow-2xl"
+          class="article flex flex-col rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl hover:scale-105 hover:shadow-2xl"
           id="article-2"
         >
           <div>
@@ -122,11 +126,16 @@
             </p>
           </div>
           <div>
-            <a class="read-more flex font-semibold p-5 text-slate-400" href="https://mangaplus.shueisha.co.jp/titles/200018" target="_blank">Read More...</a>
+            <a
+              class="read-more flex font-semibold p-5 text-slate-400"
+              href="https://mangaplus.shueisha.co.jp/titles/200018"
+              target="_blank"
+              >Read More...</a
+            >
           </div>
         </article>
         <article
-          class="article rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl  hover:scale-105 hover:shadow-2xl"
+          class="article rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl hover:scale-105 hover:shadow-2xl"
           id="article-3"
         >
           <div>
@@ -152,11 +161,16 @@
             </p>
           </div>
           <div>
-            <a class="read-more flex font-semibold p-5 text-slate-400" href="https://w13.bleach-read.com/" target="_blank">Read More...</a>
+            <a
+              class="read-more flex font-semibold p-5 text-slate-400"
+              href="https://w13.bleach-read.com/"
+              target="_blank"
+              >Read More...</a
+            >
           </div>
         </article>
         <article
-          class="article flex flex-col rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl  hover:scale-105 hover:shadow-2xl"
+          class="article flex flex-col rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl hover:scale-105 hover:shadow-2xl"
           id="article-4"
         >
           <div>
@@ -181,11 +195,16 @@
             </p>
           </div>
           <div>
-            <a class="read-more flex font-semibold p-5 text-slate-400" href="https://zonatmo.com/library/manga/11461/Hanma-Baki-Son-Of-Ogre" target="_blank">Read More...</a>
+            <a
+              class="read-more flex font-semibold p-5 text-slate-400"
+              href="https://zonatmo.com/library/manga/11461/Hanma-Baki-Son-Of-Ogre"
+              target="_blank"
+              >Read More...</a
+            >
           </div>
         </article>
         <article
-          class="article rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl  hover:scale-105 hover:shadow-2xl"
+          class="article rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl hover:scale-105 hover:shadow-2xl"
           id="article-5"
         >
           <div>
@@ -196,7 +215,9 @@
             />
           </div>
           <div class="p-5 space-y-3">
-            <h3 class="text-xl font-semibold text-slate-400">Your Talent is mine</h3>
+            <h3 class="text-xl font-semibold text-slate-400">
+              Your Talent is mine
+            </h3>
             <p class="hidden text-slate-400 md:block lg:block pt-4">
               Your Talent is Mine follows the story of a talented but
               unremarkable student, who unexpectedly gains the ability to absorb
@@ -211,11 +232,16 @@
             </p>
           </div>
           <div>
-            <a class="read-more flex font-semibold p-5 text-slate-400" href="https://zonatmo.com/library/manhua/61562/tu-talento-es-mio" target="_blank">Read More...</a>
+            <a
+              class="read-more flex font-semibold p-5 text-slate-400"
+              href="https://zonatmo.com/library/manhua/61562/tu-talento-es-mio"
+              target="_blank"
+              >Read More...</a
+            >
           </div>
         </article>
         <article
-          class="article flex flex-col rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl  hover:scale-105 hover:shadow-2xl"
+          class="article flex flex-col rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl hover:scale-105 hover:shadow-2xl"
           id="article-6"
         >
           <div>
@@ -240,11 +266,16 @@
             </p>
           </div>
           <div>
-            <a class="read-more flex p-5 text-slate-400" href="https://zonatmo.com/library/manga/2985/onepunchman" target="_blank">Read More...</a>
+            <a
+              class="read-more flex p-5 text-slate-400"
+              href="https://zonatmo.com/library/manga/2985/onepunchman"
+              target="_blank"
+              >Read More...</a
+            >
           </div>
         </article>
         <article
-          class="read-more aticle rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl  hover:scale-105 hover:shadow-2xl"
+          class="read-more aticle rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl hover:scale-105 hover:shadow-2xl"
           id="article-7"
         >
           <div>
@@ -270,11 +301,16 @@
             </p>
           </div>
           <div>
-            <a class="read-more flex font-semibold p-5 text-slate-400" href="https://zonatmo.com/library/manga/980/kaijuno8" target="_blank">Read More...</a>
+            <a
+              class="read-more flex font-semibold p-5 text-slate-400"
+              href="https://zonatmo.com/library/manga/980/kaijuno8"
+              target="_blank"
+              >Read More...</a
+            >
           </div>
         </article>
         <article
-          class="article rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl  hover:scale-105 hover:shadow-2xl"
+          class="article rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl hover:scale-105 hover:shadow-2xl"
           id="article-8"
         >
           <div>
@@ -300,7 +336,11 @@
             </p>
           </div>
           <div>
-            <a class="read-more flex font-semibold p-5 text-slate-400" href="https://zonatmo.com/library/manhua/77972/nigromante-la-llegada-del-desastre" target="_blank" id="article-8"
+            <a
+              class="read-more flex font-semibold p-5 text-slate-400"
+              href="https://zonatmo.com/library/manhua/77972/nigromante-la-llegada-del-desastre"
+              target="_blank"
+              id="article-8"
               >Read More...</a
             >
           </div>
