@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tailwind.css" />
+    <title>Anime Blog</title>
+  </head>
+  <body class="bg-white transition-colors duration-700" id="body">
+    <!--header-->
+    <header class="bg-white px-6 shadow-lg">
+      <!--header links -->
+      <div class="mx-auto flex h-16 max-w-6xl items-center justify-between">
+        <!--Poner el buscador aca -->
+        <div
+          class="relative flex items-center text-slate-400 focus-within:text-slate-400"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-5 w-5 absolute ml-3"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            />
+          </svg>
+
+          <input
+            type="text"
+            name="search"
+            aria-label="search"
+            placeholder="search.."
+            class="pr-3 pl-10 py-1 border-none rounded-2xl font-semibold placeholder-slate-400 text-black focus:outline-none focus:ring-2 focus:ring-slate-400"
+            id="search"
+          />
+        </div>
+        <div class="flex">
+          <!-- Dark Mode button -->
+          <button
+            class="rounded-full p-1 transition-colors duration-500 text-slate-500 hover:bg-slate-400 hover:text-slate-200 focus:ring-2 focus:ring-slate-400 focus:ring-offset-1"
+            id="dark-mode"
+          >
+            <svg
+              class="h-8 w-8"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+            
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!--Main Content-->
+    <main class="p-4 mt-8">
+      <div class="mx-auto max-w-6xl md:grid-cols-2 lg:grid-cols-3 grid gap-6">
+        <article
+          class="article flex flex-col rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl  hover:scale-105 hover:shadow-2xl "
+          id="article-1"
+        >
+          <div>
+            <img
+              class="h-full w-full object-cover"
+              src="img/solo.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="p-5 space-y-3 flex-1">
+            <h3 class="text-xl font-semibold">Solo Leveling</h3>
+            <p class="hidden text-slate-400 md:block lg:block pt-4">
+              Solo Leveling follows the journey of Sung Jin-Woo, a low-ranking
+              hunter in a world filled with deadly monsters. After a near-fatal
+              encounter in a mysterious dungeon, he gains a unique ability that
+              allows him to level up in strength and skill. As he battles
+              formidable foes and uncovers dark secrets, Jin-Woo evolves into
+              the most powerful hunter of his time. This thrilling tale combines
+              intense action with rich character development, captivating fans
+              of the genre. Join Jin-Woo as he navigates challenges and
+              discovers his true potential.
+            </p>
+          </div>
+          <div>
+            <a class="read-more font-semibold flex p-5 text-slate-400" href="https://www.sololevelingmangafree.com/index.html" target="_blank">Read More...</a>
+          </div>
+        </article>
+        <article
+          class="article flex flex-col rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl  hover:scale-105 hover:shadow-2xl"
+          id="article-2"
+        >
+          <div>
+            <img
+              class="h-full - w-full object-cover object-center"
+              src="img/jjk.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="p-5 space-y-3 flex-1">
+            <h3 class="text-xl font-semibold">Jujutsu Kaisen</h3>
+            <p class="hidden text-slate-400 md:block lg:block pt-4">
+              Jujutsu Kaisen centers around Yuji Itadori, a high school student
+              who becomes entangled in the world of curses after ingesting a
+              powerful cursed object. To save his friends and fight against
+              malevolent spirits, he joins the Jujutsu Sorcerers, a group
+              dedicated to exorcising curses. Alongside skilled sorcerers like
+              Megumi Fushiguro and Nobara Kugisaki, Yuji learns to harness his
+              newfound abilities. The series masterfully blends action, horror,
+              and humor, exploring themes of friendship and sacrifice. Dive into
+              the thrilling battles and dark mysteries of the Jujutsu world!
+            </p>
+          </div>
+          <div>
+            <a class="read-more flex font-semibold p-5 text-slate-400" href="https://mangaplus.shueisha.co.jp/titles/200018" target="_blank">Read More...</a>
+          </div>
+        </article>
+        <article
+          class="article rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl  hover:scale-105 hover:shadow-2xl"
+          id="article-3"
+        >
+          <div>
+            <img
+              class="h-full - w-full object-cover object-center"
+              src="img/bleach.png"
+              alt=""
+            />
+          </div>
+          <div class="p-5 space-y-3">
+            <h3 class="text-xl font-semibold">Bleach</h3>
+            <p class="hidden text-slate-400 md:block lg:block pt-4">
+              Bleach follows Ichigo Kurosaki, a teenager with the ability to see
+              ghosts, who becomes a Soul Reaper after accidentally obtaining
+              powers from Rukia Kuchiki. Tasked with protecting the living from
+              evil spirits known as Hollows, Ichigo navigates the dangerous
+              world of Soul Society and its complex politics. As he battles
+              formidable foes and unravels the mysteries of his own powers,
+              Ichigo grows stronger alongside his friends. The series is
+              renowned for its dynamic action, rich lore, and compelling
+              character development. Join Ichigo on his journey as he defends
+              both the living and the spiritual realms!
+            </p>
+          </div>
+          <div>
+            <a class="read-more flex font-semibold p-5 text-slate-400" href="https://w13.bleach-read.com/" target="_blank">Read More...</a>
+          </div>
+        </article>
+        <article
+          class="article flex flex-col rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl  hover:scale-105 hover:shadow-2xl"
+          id="article-4"
+        >
+          <div>
+            <img
+              class="h-full - w-full object-cover object-center"
+              src="img/baki.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="p-5 space-y-3 flex-1">
+            <h3 class="text-xl font-semibold">Baki</h3>
+            <p class="hidden text-slate-400 md:block lg:block pt-4">
+              Baki the Grappler follows Baki Hanma, a young martial artist
+              determined to surpass his legendary father, Yujiro Hanma, known as
+              the "strongest creature on Earth." In his quest for strength, Baki
+              faces a series of formidable opponents, each with unique fighting
+              styles and extraordinary abilities. The series showcases intense
+              battles, exploring themes of perseverance, rivalry, and the
+              pursuit of greatness. As Baki hones his skills, he navigates the
+              brutal world of underground fighting. Join him on his journey to
+              prove himself and become the ultimate warrior!
+            </p>
+          </div>
+          <div>
+            <a class="read-more flex font-semibold p-5 text-slate-400" href="https://zonatmo.com/library/manga/11461/Hanma-Baki-Son-Of-Ogre" target="_blank">Read More...</a>
+          </div>
+        </article>
+        <article
+          class="article rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl  hover:scale-105 hover:shadow-2xl"
+          id="article-5"
+        >
+          <div>
+            <img
+              class="h-full - w-full object-cover object-center"
+              src="img/your talent .jpeg"
+              alt=""
+            />
+          </div>
+          <div class="p-5 space-y-3">
+            <h3 class="text-xl font-semibold">Your Talent is mine</h3>
+            <p class="hidden text-slate-400 md:block lg:block pt-4">
+              Your Talent is Mine follows the story of a talented but
+              unremarkable student, who unexpectedly gains the ability to absorb
+              the skills and talents of others. As he navigates a world where
+              strength and skill are everything, he becomes a formidable
+              contender in various competitions. With each absorbed talent, he
+              transforms from an underdog to a powerhouse, challenging the
+              status quo. The series blends action, strategy, and personal
+              growth, highlighting the value of determination and adaptability.
+              Join him on his journey as he strives to master his newfound
+              powers and carve out his own destiny!
+            </p>
+          </div>
+          <div>
+            <a class="read-more flex font-semibold p-5 text-slate-400" href="https://zonatmo.com/library/manhua/61562/tu-talento-es-mio" target="_blank">Read More...</a>
+          </div>
+        </article>
+        <article
+          class="article flex flex-col rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl  hover:scale-105 hover:shadow-2xl"
+          id="article-6"
+        >
+          <div>
+            <img
+              class="h-full - w-full object-cover object-center"
+              src="img/saitama2.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="p-5 space-y-3 flex-1">
+            <h3 class="text-xl font-semibold">One Punch Man</h3>
+            <p class="hidden text-slate-400 md:block lg:block pt-4">
+              One Punch Man follows Saitama, an unassuming hero who can defeat
+              any opponent with a single punch. Despite his overwhelming power,
+              he struggles with boredom and the lack of recognition in a world
+              filled with monstrous threats. As he seeks genuine challenges and
+              a sense of purpose, Saitama encounters a diverse cast of heroes
+              and villains. The series brilliantly combines action, comedy, and
+              satire, poking fun at typical superhero tropes. Join Saitama on
+              his quest for excitement as he navigates a world where the
+              strongest hero often goes unnoticed!
+            </p>
+          </div>
+          <div>
+            <a class="read-more flex p-5 text-slate-400" href="https://zonatmo.com/library/manga/2985/onepunchman" target="_blank">Read More...</a>
+          </div>
+        </article>
+        <article
+          class="read-more aticle rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl  hover:scale-105 hover:shadow-2xl"
+          id="article-7"
+        >
+          <div>
+            <img
+              class="h-full - w-full object-cover object-center"
+              src="img/kn8.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="p-5 space-y-3">
+            <h3 class="text-xl font-semibold">Kaiju N 8</h3>
+            <p class="hidden text-slate-400 md:block lg:block pt-4">
+              Kaiju No. 8 follows Kafka Hibino, a man whose dream of joining the
+              Japan Defense Force to fight monstrous kaiju takes an unexpected
+              turn. After a chance encounter with a kaiju, he gains the ability
+              to transform into one himself, giving him immense power. As Kafka
+              navigates his dual life, he faces the challenges of both fighting
+              alongside his comrades and controlling his monstrous side. The
+              series blends action, humor, and themes of perseverance,
+              showcasing the struggle to protect humanity while embracing one’s
+              true self. Join Kafka on his thrilling journey as he fights
+              against overwhelming odds!
+            </p>
+          </div>
+          <div>
+            <a class="read-more flex font-semibold p-5 text-slate-400" href="https://zonatmo.com/library/manga/980/kaijuno8" target="_blank">Read More...</a>
+          </div>
+        </article>
+        <article
+          class="article rounded-lg overflow-hidden bg-white transition-all duration-700 shadow-2xl  hover:scale-105 hover:shadow-2xl"
+          id="article-8"
+        >
+          <div>
+            <img
+              class="h-full - w-full object-cover object-center"
+              src="img/nigromante.webp"
+              alt=""
+            />
+          </div>
+          <div class="p-5 space-y-3">
+            <h3 class="text-xl font-semibold">Nigromante</h3>
+            <p class="hidden text-slate-400 md:block lg:block pt-4">
+              Necromancer: I Am the Plague follows the story of a powerful
+              necromancer who seeks revenge in a world where dark magic reigns.
+              After facing betrayal and death, he is reborn with the ability to
+              control the undead and unleash devastating plagues upon his
+              enemies. As he navigates the treacherous landscape filled with
+              formidable foes and rival sorcerers, he aims to reclaim his lost
+              power and exact vengeance. The series explores themes of
+              resurrection, power struggles, and the consequences of wielding
+              dark magic. Join him on his quest as he transforms from a fallen
+              hero to a fearsome force of chaos!
+            </p>
+          </div>
+          <div>
+            <a class="read-more flex font-semibold p-5 text-slate-400" href="https://zonatmo.com/library/manhua/77972/nigromante-la-llegada-del-desastre" target="_blank" id="article-8"
+              >Read More...</a
+            >
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <!--Footer-->
+    <footer></footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
